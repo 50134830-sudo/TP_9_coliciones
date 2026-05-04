@@ -8,8 +8,8 @@ public class Interaction_area : MonoBehaviour
     {
         if(col.gameObject.CompareTag("pickable"))
         {
-            Debug.Log("Hubo colicion con un pickable")
-            Destroy(col.gameObject)
+            Debug.Log("Hubo colicion con un pickable");
+            Destroy(col.gameObject);
         }
     }
 }
